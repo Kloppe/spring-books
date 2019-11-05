@@ -30,7 +30,8 @@ def upload_image(data):
 
 if __name__ == "__main__":
     # 测试该方法
-    with open('2.jpeg', 'rb') as f:
+    with open('demo.jpeg', 'rb') as f:
         data = f.read()
-    upload_image(data)
+    key = upload_image(data)
+    print(key)
     pass
