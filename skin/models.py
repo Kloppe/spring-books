@@ -23,7 +23,7 @@ class UserBaseModel(object):
     address = db.Column(db.String(128), nullable=True) # 用户地址
 
 
-class User(UserBaseModel):
+class User(UserBaseModel, BaseModel, db.Model):
     '''用户模型
     '''
     __tablename__ = 'sk_user_profile'
@@ -60,7 +60,7 @@ class User(UserBaseModel):
         return user_info
 
 
-class SkinImage(BaseModel):
+class SkinImage(BaseModel, db.Model):
     '''用户皮肤病图片集合
     '''
     __tablename__ = 'sk_skin_image'
