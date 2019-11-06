@@ -9,3 +9,4 @@ api=Blueprint('api_1_0',__name__,url_prefix='/api/1.0')
 
 # 为了能调用到视图需要导入
 from . import demo
+from .import verify
