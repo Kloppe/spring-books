@@ -9,11 +9,13 @@ from flask_sqlalchemy import SQLAlchemy
 # from flask_wtf import CSRFProtect
 from config import configs
 from flask_session import Session
+from flask_mail import Mail, Message
 import redis
 
 # 定义能被外部调用的对象
 db=SQLAlchemy()
 redis_conn=None
+mail = None
 
 def setupLogging(levle):
     # 业务逻辑已开启就加载日志
@@ -40,6 +42,10 @@ def get_app(config_name):
     # 加载配置文件
     app.config.from_object(configs[config_name])
 
+    # 绑定邮箱配置
+    global mail
+    mail = Mail(app) 
+
     # 创建Redis数据库连接对象
     global redis_conn
     redis_conn = redis.StrictRedis(host=configs[config_name].REDIS_HOST, 
@@ -54,6 +60,7 @@ def get_app(config_name):
     # 开启CSRF保护
     # CSRFProtect(app)
 
+    
 
     # 哪里需要哪里导入蓝图
     from skin.api_1_0 import api
