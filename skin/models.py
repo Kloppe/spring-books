@@ -16,7 +16,7 @@ class UserBaseModel(object):
     id = db.Column(db.Integer, primary_key=True) # id
     name = db.Column(db.String(32)) # 名字
     password = db.Column(db.String(128), nullable=False) # 用户密码
-    phone = db.Column(db.String(11), nullable=False) # 用户手机号码，用手机号码注册
+    phone = db.Column(db.String(11), nullable=True) # 用户手机号码，用手机号码注册
     age = db.Column(db.String(3), nullable=True) # 用户年龄
     email = db.Column(db.String(128), nullable=True) # 用户邮箱
     avatar_url = db.Column(db.String(256), nullable=True) # 用户头像
