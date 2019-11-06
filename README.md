@@ -4,6 +4,7 @@
 - mysql
 - crsk
 - keras
+- email
 - ~~redis~~
 
 ## 前端链接
@@ -17,6 +18,9 @@
 ### 2019.11.6
 - 创建response_code文件
 - 编写状态码
+- 创建verify文件
+- 编写验证码接口
+- 编写邮箱配置
 
 ### 2019.11.5
 - 编写constants参数
@@ -41,3 +45,5 @@
 - `python manage.py runserver`
 - 浏览器输入`localhost:5000/api/1.0/demo`
 - 出现`Hello Skin...`
+
+
