@@ -2,7 +2,7 @@
 # __file_name__: config.py
 # __time__: 2019:10:30:21:07
 
-import logging
+import logging, os
 from redis import StrictRedis
 
 class Config:
@@ -28,6 +28,14 @@ class Config:
     SESSION_USE_SIGNER = True
     # 設置session的会话的超时时长 ：一天,全局指定
     PERMANENT_SESSION_LIFETIME = 3600 * 1 # 暂定1小时
+
+    # email配置
+    MAIL_SERVER = 'smtp.qq.com'
+    MAIL_PORT = 465
+    MAIL_USE_SSL = True
+    MAIL_USERNAME = '470957137@qq.com'
+    MAIL_PASSWORD = 'tdpvjsislqskbjca'
+    MAIL_DEFAULT_SENDER = MAIL_USERNAME
 
 class DevelopConfig(Config):
     """开发阶段下的配置子类"""
