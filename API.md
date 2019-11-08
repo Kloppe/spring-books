@@ -19,7 +19,7 @@ usage：BaseURL/imageCode?uuid=456&last_uuid=123
 ```json
 url: /register
 method: post
-param:
+param: json
  -   1. email: 用户邮箱
  -   2. email_code: 验证码
  -   3. password：密码
@@ -45,7 +45,7 @@ return:
 ```json
 url: /sessions
 method: post
-param:
+param: json
  -   1. email: 用户邮箱
  -   2. password：密码
  return:
@@ -80,7 +80,7 @@ url: /users
 method: get
 return:
 -   json
-usage：BaseURL/get
+usage：BaseURL/users
 return:
 {
     "msg": "查询成功",
@@ -94,6 +94,24 @@ return:
         "phone": null,
         "user_id": 1
     }
+}
+注意：
+- 前提已登录
+```
+### 上传或更改头像
+```json
+url: /users/avatar
+method: post
+param: form-data
+   1. avatar: 二进制头像图片file
+return:
+-   json
+usage：BaseURL/users/avatar
+return:
+{
+    "avatar_url": "http://media.dreamcat.ink/Frw5MubgRd-nDuztbp7JMMgSu6dp",
+    "msg": "上传头像成功",
+    "re_code": "0"
 }
 注意：
 - 前提已登录
