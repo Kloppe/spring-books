@@ -51,12 +51,13 @@ class User(UserBaseModel, BaseModel, db.Model):
             'user_id': self.id,
             'name': self.name,
             'phone': self.phone,
+            'email': self.email,
             'avatar_url': self.avatar_url,
             'age': self.age,
             'address': self.address,
         }
-        # if self.avatar_url:
-        #     user_info['avatar_url'] = constants.QINIU_DOMIN_PREFIX + self.avatar_url
+        if self.avatar_url:
+            user_info['avatar_url'] = constants.QINIU_DOMIN_PREFIX + self.avatar_url
         return user_info
 
 

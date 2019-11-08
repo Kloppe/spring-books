@@ -8,7 +8,7 @@ method: get
 param:
  -   1. uuid: 随机的字符串
  -   2. last_uuid: 上次随机字符串,可以为空，但最好不要为空
- return:
+return:
 -   图片验证码
 usage：BaseURL/imageCode?uuid=456&last_uuid=123
 ```
@@ -25,7 +25,7 @@ param:
  -   3. password：密码
  -   4. password2：再次输入密码
  -   5. uuid: 验证码的uuid
- return:
+return:
 -   json
 usage：BaseURL/register
 {
@@ -71,4 +71,30 @@ return:
     "msg": "退出成功",
     "re_code": "0"
 }
+```
+
+## 个人信息
+### 获取个人信息
+```json
+url: /users
+method: get
+return:
+-   json
+usage：BaseURL/get
+return:
+{
+    "msg": "查询成功",
+    "re_code": "0",
+    "user": {
+        "address": null,
+        "age": null,
+        "avatar_url": null,
+        "email": "470957137@qq.com",
+        "name": "470957137@qq.com",
+        "phone": null,
+        "user_id": 1
+    }
+}
+注意：
+- 前提已登录
 ```
