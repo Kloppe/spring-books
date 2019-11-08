@@ -8,6 +8,7 @@ from skin.utils.response_code import RET
 import re
 from skin import redis_conn, db
 from skin.models import User
+from skin.utils.common import login_required
 
 
 @api.route('/register', methods=['POST'])
@@ -134,7 +135,7 @@ def login():
     return jsonify(re_code=RET.OK, msg='登陆成功')
 
 @api.route('/sessions', methods=['DELETE'])
-#@login_required 登录检验
+@login_required # 登录检验
 def logout():
     '''退出登录功能，删除session
     :return: json
