@@ -92,7 +92,7 @@ def register():
     return jsonify(re_code=RET.OK, msg='注册成功')
 
 
-@api.route('/session', methods=['POST'])
+@api.route('/sessions', methods=['POST'])
 def login():
     '''用户登录接口
     :param json
