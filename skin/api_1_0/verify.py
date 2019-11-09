@@ -19,7 +19,7 @@ def get_image_code():
     :param json
         1. uuid
         2. last_uuid
-        eg:http://127.0.0.1"5000/imageCode?uuid=xxxx&last_uuid=xxxx
+        eg:http://127.0.0.1:5000/imageCode?uuid=xxxx&last_uuid=xxxx
     :return: image data
     '''
     uuid = request.args.get('uuid')
