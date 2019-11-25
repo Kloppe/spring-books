@@ -13,7 +13,7 @@ import re
 from skin.utils.captcha.captcha import captcha
 from skin.utils.send_email import send_email_code
 
-@api.route('/iamgeCode')
+@api.route('/imageCode')
 def get_image_code():
     '''获取图片验证码
     :param json

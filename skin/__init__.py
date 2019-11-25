@@ -9,6 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 # from flask_wtf import CSRFProtect
 from config import configs
 from flask_session import Session
+from flask_cors import CORS
 from flask_mail import Mail, Message
 import redis
 
@@ -39,6 +40,8 @@ def get_app(config_name):
 
     # 创建app
     app = Flask(__name__)
+    # 跨域
+    CORS(app, supports_credentials=True)
     # 加载配置文件
     app.config.from_object(configs[config_name])
 
