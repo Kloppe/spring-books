@@ -19,8 +19,8 @@ import org.springframework.context.annotation.Configuration;
 public class MainConfig {
 
     // 给容器注册一个bean，类型为返回值的类型，id默认为方法名
-    @Bean
-    public Person person() {
+    @Bean("person")
+    public Person person01() {
         return new Person("class", 18);
     }
 }

@@ -20,5 +20,10 @@ public class MainTest {
         ApplicationContext context =  new AnnotationConfigApplicationContext(MainConfig.class);
         Person bean = context.getBean(Person.class);
         System.out.println(bean);
+
+        String[] namesForType = context.getBeanNamesForType(Person.class);
+        for (String s : namesForType) {
+            System.out.println(s);
+        }
     }
 }
