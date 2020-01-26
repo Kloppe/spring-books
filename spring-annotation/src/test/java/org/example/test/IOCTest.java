@@ -28,9 +28,9 @@ public class IOCTest {
     public void test02() {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
         String[] definitionNames = applicationContext.getBeanDefinitionNames();
-        for (String definitionName : definitionNames) {
-            System.out.println(definitionName);
-        }
+//        for (String definitionName : definitionNames) {
+//            System.out.println(definitionName);
+//        }
         // 默认是单例的
         Person person = (Person) applicationContext.getBean("person");
         Person person1 = (Person) applicationContext.getBean("person");
