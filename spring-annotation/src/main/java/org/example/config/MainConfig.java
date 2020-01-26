@@ -9,6 +9,7 @@ package org.example.config;
 
 import org.example.bean.Person;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration // 告诉spring，这是一个配置文件
+@ComponentScan("org.example")
 public class MainConfig {
 
     // 给容器注册一个bean，类型为返回值的类型，id默认为方法名
