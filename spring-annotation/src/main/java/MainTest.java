@@ -1,5 +1,7 @@
 import org.example.bean.Person;
+import org.example.config.MainConfig;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -12,8 +14,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MainTest {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        Person person = (Person) context.getBean("person");
-        System.out.println(person);
+//        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+//        Person person = (Person) context.getBean("person");
+//        System.out.println(person);
+        ApplicationContext context =  new AnnotationConfigApplicationContext(MainConfig.class);
+        Person bean = context.getBean(Person.class);
+        System.out.println(bean);
     }
 }
