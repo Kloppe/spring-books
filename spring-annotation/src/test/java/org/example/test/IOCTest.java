@@ -7,7 +7,9 @@
 
 package org.example.test;
 
+import org.example.bean.Person;
 import org.example.config.MainConfig;
+import org.example.config.MainConfig2;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -20,5 +22,18 @@ public class IOCTest {
         for (String definitionName : definitionNames) {
             System.out.println(definitionName);
         }
+    }
+
+    @Test
+    public void test02() {
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
+        String[] definitionNames = applicationContext.getBeanDefinitionNames();
+        for (String definitionName : definitionNames) {
+            System.out.println(definitionName);
+        }
+        // 默认是单例的
+        Person person = (Person) applicationContext.getBean("person");
+        Person person1 = (Person) applicationContext.getBean("person");
+        System.out.println(person == person1);
     }
 }
