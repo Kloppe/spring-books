@@ -31,9 +31,10 @@ public class IOCTest {
 //        for (String definitionName : definitionNames) {
 //            System.out.println(definitionName);
 //        }
+        System.out.println("IOC容器创建完成");
         // 默认是单例的
-        Person person = (Person) applicationContext.getBean("person");
-        Person person1 = (Person) applicationContext.getBean("person");
-        System.out.println(person == person1);
+//        Person person = (Person) applicationContext.getBean("person");
+//        Person person1 = (Person) applicationContext.getBean("person");
+//        System.out.println(person == person1);
     }
 }
