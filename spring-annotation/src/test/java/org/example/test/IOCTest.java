@@ -13,11 +13,15 @@ import org.example.config.MainConfig2;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Map;
+
 public class IOCTest {
+
+    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
 
     @Test
     public void test01() {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
+
         String[] definitionNames = applicationContext.getBeanDefinitionNames();
         for (String definitionName : definitionNames) {
             System.out.println(definitionName);
@@ -26,7 +30,6 @@ public class IOCTest {
 
     @Test
     public void test02() {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig2.class);
         String[] definitionNames = applicationContext.getBeanDefinitionNames();
 //        for (String definitionName : definitionNames) {
 //            System.out.println(definitionName);
@@ -36,5 +39,20 @@ public class IOCTest {
 //        Person person = (Person) applicationContext.getBean("person");
 //        Person person1 = (Person) applicationContext.getBean("person");
 //        System.out.println(person == person1);
+    }
+
+    @Test
+    public void test03() {
+//        String[] definitionNames = applicationContext.getBeanDefinitionNames();
+//        for (String name : definitionNames) {
+//            System.out.println(name);
+//        }
+        String[] names = applicationContext.getBeanNamesForType(Person.class);
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        Map<String, Person> personMap = applicationContext.getBeansOfType(Person.class);
+        System.out.println(personMap);
     }
 }

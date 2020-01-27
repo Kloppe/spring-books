@@ -8,10 +8,9 @@
 package org.example.config;
 
 import org.example.bean.Person;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
+import org.example.condition.ManCondition;
+import org.example.condition.WomanCondition;
+import org.springframework.context.annotation.*;
 
 @Configuration
 public class MainConfig2 {
@@ -25,5 +24,23 @@ public class MainConfig2 {
     public Person person() {
         System.out.println("给容器中创建person...");
         return new Person();
+    }
+
+    /**
+     * @conditional: 按照一定的条件进行判断，满足条件给容器中注册bean
+     * @return
+     *
+     * 如果是man，给容器注册maifeng，如果是woman，给容器注册liumeng
+     */
+    @Conditional({ManCondition.class})
+    @Bean("man")
+    public Person person01() {
+        return new Person("Maifeng", 18);
+    }
+
+    @Conditional({WomanCondition.class})
+    @Bean("woman")
+    public Person person02() {
+        return new Person("Liumeng", 18);
     }
 }
