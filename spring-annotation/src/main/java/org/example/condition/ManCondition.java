@@ -9,6 +9,7 @@ package org.example.condition;
 
 
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
@@ -23,7 +24,7 @@ public class ManCondition implements Condition {
      * @return
      */
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata annotatedTypeMetadata) {
-        // 判断是否男人
-        return false;
+        BeanDefinitionRegistry registry = conditionContext.getRegistry();
+        return registry.containsBeanDefinition("isMan");
     }
 }

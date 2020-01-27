@@ -20,7 +20,7 @@ public class MainConfig2 {
     // 懒加载 容器启动的时候不创建对象，第一次获取的时候才去创建对象并初始化（单实例）
     @Scope("")
     @Lazy
-    @Bean
+    @Bean("isMan")
     public Person person() {
         System.out.println("给容器中创建person...");
         return new Person();
