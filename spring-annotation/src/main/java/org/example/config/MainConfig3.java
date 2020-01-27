@@ -9,11 +9,13 @@ package org.example.config;
 
 import org.example.bean.Car;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
  * 生命周期...
  */
+@ComponentScan("org.example.bean")
 @Configuration
 public class MainConfig3 {
 
