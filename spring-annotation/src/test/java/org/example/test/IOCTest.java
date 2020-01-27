@@ -55,4 +55,16 @@ public class IOCTest {
         Map<String, Person> personMap = applicationContext.getBeansOfType(Person.class);
         System.out.println(personMap);
     }
+
+    private void printBeanNames() {
+        String[] names = applicationContext.getBeanDefinitionNames();
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+
+    @Test
+    public void testImport() {
+        printBeanNames();
+    }
 }
