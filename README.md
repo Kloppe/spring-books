@@ -7,3 +7,7 @@
 - [代码资料](https://gitee.com/adanzzz/spring_source_parsing_data)
 ## 思维导图
 - [spring注解驱动开发](https://www.processon.com/view/link/5e30213ae4b096de64c8e9bf)
+
+
+## 目录说明
+- [xml注册bean方式](src/main/resources/beans.xml)
