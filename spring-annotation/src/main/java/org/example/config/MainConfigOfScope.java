@@ -38,6 +38,7 @@ public class MainConfigOfScope {
 	@Scope("prototype")
     @Bean
     public Person person() {
+        System.out.println("给容器添加person");
         return new Person("Maifeng", 18);
     }
 }

@@ -16,3 +16,5 @@
 - [注解注册bean方式](/spring-annotation/src/main/java/org/example/config/MainConfig.java)
 - [注解注册包扫描方式](/spring-annotation/src/main/java/org/example/config/MainConfig.java)
 - [@Filter的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfFilter.java)
+- [@Scope的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)
+- [@Lazy的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)

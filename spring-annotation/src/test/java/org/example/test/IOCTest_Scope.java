@@ -17,8 +17,8 @@ public class IOCTest_Scope {
     @Test
     public void test() {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfigOfScope.class);
-        Person bean = applicationContext.getBean(Person.class);
-        Person bean1 = applicationContext.getBean(Person.class);
-        System.out.println(bean == bean1);
+//        Person bean = applicationContext.getBean(Person.class);
+//        Person bean1 = applicationContext.getBean(Person.class);
+//        System.out.println(bean == bean1);
     }
 }
