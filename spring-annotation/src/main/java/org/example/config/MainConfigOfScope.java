@@ -10,6 +10,7 @@ package org.example.config;
 import org.example.bean.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
@@ -35,7 +36,8 @@ public class MainConfigOfScope {
      * 		懒加载：容器启动不创建对象。第一次使用(获取)Bean创建对象，并初始化；
      *
      */
-	@Scope("prototype")
+//	@Scope("prototype")
+    @Lazy
     @Bean
     public Person person() {
         System.out.println("给容器添加person");
