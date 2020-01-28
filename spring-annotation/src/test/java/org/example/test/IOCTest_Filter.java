@@ -1,3 +1,5 @@
+package org.example.test;
+
 import org.example.config.MainConfigOfFilter;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
