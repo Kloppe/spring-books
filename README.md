@@ -10,4 +10,4 @@
 
 
 ## 目录说明
-- [xml注册bean方式](src/main/resources/beans.xml)
+- [xml注册bean方式](/spring-annotation/main/src/main/resources/beans.xml)
