@@ -18,3 +18,4 @@
 - [@Filter的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfFilter.java)
 - [@Scope的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)
 - [@Lazy的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)
+- [@Conditional的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfConditional.java)
