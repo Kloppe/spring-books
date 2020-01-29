@@ -23,3 +23,5 @@
 - [bean的生命周期](/spring-annotation/src/main/java/org/example/config/MainConfigOfLifeCycle.java)
 - [@Value的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfValue.java)
 - [@PropertySource的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfValue.java)
+- [@Autowired的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
+- [@Qualifier的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
