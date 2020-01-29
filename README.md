@@ -20,8 +20,11 @@
 - [@Lazy的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)
 - [@Conditional的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfConditional.java)
 - [@Import的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfImport.java)
+### 生命周期
 - [bean的生命周期](/spring-annotation/src/main/java/org/example/config/MainConfigOfLifeCycle.java)
+### 属性赋值
 - [@Value的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfValue.java)
 - [@PropertySource的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfValue.java)
+### 自动装配
 - [@Autowired的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
 - [@Qualifier的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
