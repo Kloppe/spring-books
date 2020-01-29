@@ -12,11 +12,12 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+// 第三种
 @Component
 public class Dog {
 
     public Dog() {
-        System.out.println("dog create...");
+        System.out.println("dog construct...");
     }
 
     // 对象创建并赋值之后调用

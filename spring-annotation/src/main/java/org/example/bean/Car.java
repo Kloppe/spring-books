@@ -6,11 +6,11 @@
  */
 
 package org.example.bean;
-
+// 第一种
 public class Car {
 
     public Car() {
-        System.out.println("car create...");
+        System.out.println("car construct...");
     }
 
     public void init() {
