@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
 
@@ -30,6 +31,7 @@ import javax.sql.DataSource;
  * 3）、没有标注环境标识的bean在，任何环境下都是加载的；
  */
 @Configuration
+@PropertySource("classpath:/dbconfig.properties")
 public class MainConfigOfProfile {
 
     @Value("${db.user}")
