@@ -9,12 +9,14 @@ package org.example.controller;
 
 import org.example.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 @Controller
 public class BookController {
 
-    @Autowired
+//    @Qualifier("bookService2")
+    @Autowired(required = false)
     private BookService bookService;
 
     @Override
