@@ -20,3 +20,4 @@
 - [@Lazy的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfScope.java)
 - [@Conditional的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfConditional.java)
 - [@Import的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfImport.java)
+- [bean的生命周期](/spring-annotation/src/main/java/org/example/config/MainConfigOfLifeCycle.java)
