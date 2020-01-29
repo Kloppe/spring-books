@@ -7,10 +7,14 @@
 
 package org.example.bean;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Person {
 
+    @Value("Maifeng")
     private String name;
 
+    @Value("#{20-2}")
     private Integer age;
 
     public Person() {
