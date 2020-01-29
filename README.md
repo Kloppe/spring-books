@@ -28,3 +28,4 @@
 ### 自动装配
 - [@Autowired的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
 - [@Qualifier的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfAutowired.java)
+- [@Profile的使用](/spring-annotation/src/main/java/org/example/config/MainConfigOfProfile.java)
