@@ -37,6 +37,7 @@
 ### 扩展原理
 - [BeanFactoryPostProcessor](/spring-annotation/src/main/java/org/example/ext/MyBeanFactoryPostProcessor.java)
 - [BeanDefinitionRegistryPostProcessor](/spring-annotation/src/main/java/org/example/ext/MyBeanDefinitionRegistryPostProcessor.java)
+- [ApplicationListener](/spring-annotation/src/main/java/org/example/ext/MyApplicationListener.java)
 ## 源码总结
 - [Spring和SpringAOP](/Spring和SpringAOP源码总结.md)
 - [参考这位大佬的MVC原理](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringMVC-Principle) **这位大佬总结的不错，可参考**
