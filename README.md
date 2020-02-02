@@ -36,5 +36,4 @@
 - [Spring事务源码](/spring-annotation/src/main/java/org/example/tx/MainConfigOfTx.java)
 ## 源码总结
 - [Spring和SpringAOP](/Spring和SpringAOP源码总结.md)
-## SpringMVC
 - [参考这位大佬的MVC原理](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringMVC-Principle)
