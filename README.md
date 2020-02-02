@@ -34,6 +34,8 @@
 ### 事务
 - [Spring事务](/spring-annotation/src/main/java/org/example/tx/MainConfigOfTx.java)
 - [Spring事务源码](/spring-annotation/src/main/java/org/example/tx/MainConfigOfTx.java)
+### 扩展原理
+- [BeanFactoryPostProcessor](/spring-annotation/src/main/java/org/example/ext/MyBeanFactoryPostProcessor.java)
 ## 源码总结
 - [Spring和SpringAOP](/Spring和SpringAOP源码总结.md)
 - [参考这位大佬的MVC原理](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringMVC-Principle)
