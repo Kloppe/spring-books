@@ -12,7 +12,7 @@ import org.example.tx.UserService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class IOCTest_tx {
+public class IOCTest_Tx {
 
     @Test
     public void test() {
