@@ -42,6 +42,8 @@
 - [Spring和SpringAOP](/Spring和SpringAOP源码总结.md)
 - [参考这位大佬的MVC原理](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringMVC-Principle) **这位大佬总结的不错，可参考**
 - [SpringMVC开发文档](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) **这里就不贴视频中的SpringMVC工程**
+## 手写简单的IOC和AOP
+- [手写简单的IOC](/spring-ioc) 非常简单，每行都有注释
 
 ## SpringBoot
 **[参考这位大佬](https://snailclimb.gitee.io/springboot-guide/#/)**
