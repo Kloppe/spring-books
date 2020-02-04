@@ -58,4 +58,6 @@
 - [列举一些重要的Spring模块](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_2-%e5%88%97%e4%b8%be%e4%b8%80%e4%ba%9b%e9%87%8d%e8%a6%81%e7%9a%84spring%e6%a8%a1%e5%9d%97%ef%bc%9f)
 - [@RestController vs @Controller](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_3-restcontroller-vs-controller)
 - **@ResponseBody的作用**：**注解的作用是将 Controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到HTTP 响应(Response)对象的 body 中，通常用来返回 JSON 或者 XML 数据，返回 JSON 数据的情况比较多。**
+- [谈谈自己对于Spring IoC和AOP的理解](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_41-%e8%b0%88%e8%b0%88%e8%87%aa%e5%b7%b1%e5%af%b9%e4%ba%8e-spring-ioc-%e5%92%8c-aop-%e7%9a%84%e7%90%86%e8%a7%a3)
+
                    
