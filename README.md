@@ -50,3 +50,7 @@
 **[参考这位大佬](https://snailclimb.gitee.io/springboot-guide/#/)**
 **项目结构过于具体简单的文件解释就不说了，主要是看细节和原理**
 - [SpringBoot启动流程分析](/SpringBoot启动流程分析.md)
+
+
+## Spring常见面试问题
+- [参考这位大佬总结的，挺好的](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions) 其实专注一个参考资料，认真备面就完全ok
