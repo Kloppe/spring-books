@@ -63,4 +63,5 @@
 - [Spring中的bean的作用域有哪些](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_51-spring-%e4%b8%ad%e7%9a%84-bean-%e7%9a%84%e4%bd%9c%e7%94%a8%e5%9f%9f%e6%9c%89%e5%93%aa%e4%ba%9b)
 - [Spring中的单例bean的线程安全问题了解吗](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_52-spring-%e4%b8%ad%e7%9a%84%e5%8d%95%e4%be%8b-bean-%e7%9a%84%e7%ba%bf%e7%a8%8b%e5%ae%89%e5%85%a8%e9%97%ae%e9%a2%98%e4%ba%86%e8%a7%a3%e5%90%97%ef%bc%9f)
 - [@Component和@bean的区别是什么](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_53-component-%e5%92%8c-bean-%e7%9a%84%e5%8c%ba%e5%88%ab%e6%98%af%e4%bb%80%e4%b9%88%ef%bc%9f)
+- [将一个类声明为Spring的bean的注解有哪些](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_54-%e5%b0%86%e4%b8%80%e4%b8%aa%e7%b1%bb%e5%a3%b0%e6%98%8e%e4%b8%baspring%e7%9a%84-bean-%e7%9a%84%e6%b3%a8%e8%a7%a3%e6%9c%89%e5%93%aa%e4%ba%9b)
                    
