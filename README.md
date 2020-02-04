@@ -67,4 +67,5 @@
 - [Spring中的bean生命周期](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_55-spring-%e4%b8%ad%e7%9a%84-bean-%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)
 - [说说自己对于SpringMVC了解](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_61-%e8%af%b4%e8%af%b4%e8%87%aa%e5%b7%b1%e5%af%b9%e4%ba%8e-spring-mvc-%e4%ba%86%e8%a7%a3)
 - [SpringMVC工作原理了解吗](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_62-springmvc-%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86%e4%ba%86%e8%a7%a3%e5%90%97)
+- [Spring框架中用到了哪些设计模型](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_7-spring-%e6%a1%86%e6%9e%b6%e4%b8%ad%e7%94%a8%e5%88%b0%e4%ba%86%e5%93%aa%e4%ba%9b%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f%ef%bc%9f)
                    
