@@ -66,4 +66,5 @@
 - [将一个类声明为Spring的bean的注解有哪些](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_54-%e5%b0%86%e4%b8%80%e4%b8%aa%e7%b1%bb%e5%a3%b0%e6%98%8e%e4%b8%baspring%e7%9a%84-bean-%e7%9a%84%e6%b3%a8%e8%a7%a3%e6%9c%89%e5%93%aa%e4%ba%9b)
 - [Spring中的bean生命周期](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_55-spring-%e4%b8%ad%e7%9a%84-bean-%e7%94%9f%e5%91%bd%e5%91%a8%e6%9c%9f)
 - [说说自己对于SpringMVC了解](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_61-%e8%af%b4%e8%af%b4%e8%87%aa%e5%b7%b1%e5%af%b9%e4%ba%8e-spring-mvc-%e4%ba%86%e8%a7%a3)
+- [SpringMVC工作原理了解吗](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/SpringInterviewQuestions?id=_62-springmvc-%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86%e4%ba%86%e8%a7%a3%e5%90%97)
                    
