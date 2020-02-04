@@ -44,6 +44,7 @@
 - [SpringMVC开发文档](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) **这里就不贴视频中的SpringMVC工程**
 ## 手写简单的IOC和AOP
 - [手写简单的IOC](/spring-ioc) 非常简单，每行都有注释
+- [手写简单的AOP](/spring-aop2) 非常简单，每行都有注释
 
 ## SpringBoot
 **[参考这位大佬](https://snailclimb.gitee.io/springboot-guide/#/)**
