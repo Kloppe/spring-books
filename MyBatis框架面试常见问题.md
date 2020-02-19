@@ -68,7 +68,7 @@ categories: Java
 ## 当实体类中的属性名和表中的字段名不一样 ，怎么办 ？
 
 1. 第1种： 通过在查询的sql语句中定义字段名的别名，让字段名的别名和实体类的属性名一致。
-2. 第2种： 通过 <resultMap> 来映射字段名和实体类属性名的一一对应的关系。
+2. 第2种： 通过 `<resultMap>` 来映射字段名和实体类属性名的一一对应的关系。
 
 ## 模糊查询like语句该怎么写?
 
@@ -78,7 +78,7 @@ categories: Java
 ## 通常一个Xml映射文件，都会写一个Dao接口与之对应，请问，这个Dao接口的工作原理是什么？Dao接口里的方法，参数不同时，方法能重载吗？
 
 **Dao接口即Mapper接口。接口的全限名，就是映射文件中的namespace的值；接口的方法名，就是映射文件中Mapper的Statement的id值；接口方法内的参数，就是传递给sql的参数。**
-**Mapper接口是没有实现类的，当调用接口方法时，接口全限名+方法名拼接字符串作为key值，可唯一定位一个MapperStatement。在Mybatis中每<select>、<insert>、<update>、<delete> 标签，都会被解析为一个MapperStatement对象。**
+**Mapper接口是没有实现类的，当调用接口方法时，接口全限名+方法名拼接字符串作为key值，可唯一定位一个MapperStatement。在Mybatis中每`<select>、<insert>、<update>、<delete> `标签，都会被解析为一个MapperStatement对象。**
 
 **Mapper接口里的方法，是不能重载的，因为是使用 全限名+方法名 的保存和寻找策略。Mapper 接口的工作原理是JDK动态代理，Mybatis运行时会使用JDK动态代理为Mapper接口生成代理对象proxy，代理对象会拦截接口方法，转而执行MapperStatement所代表的sql，然后将sql执行结果返回。**
 
@@ -90,7 +90,7 @@ categories: Java
 
 ## Mybatis是如何将sql执行结果封装为目标对象并返回的？都有哪些映射形式？
 
-1. 第一种是使用 <resultMap> 标签，逐一定义数据库列名和对象属性名之间的映射关系。
+1. 第一种是使用` <resultMap> `标签，逐一定义数据库列名和对象属性名之间的映射关系。
 2. 第二种是使用sql列的别名功能，将列的别名书写为对象属性名。
 
 **有了列名与属性名的映射关系后，Mybatis通过反射创建对象，同时使用反射给对象的属性逐一赋值并返回，那些找不到映射关系的属性，是无法完成赋值的。**
@@ -112,7 +112,7 @@ categories: Java
 
 ## Xml映射文件中，除了常见的select|insert|updae|delete标签之外，还有哪些标签？
 
-**<resultMap>、<parameterMap>、<sql>、<include>、<selectKey> ，加上动态sql的9个标签，其中 <sql> 为sql片段标签，通过 <include> 标签引入sql片段， <selectKey> 为不支持自增的主键生成策略标签。**
+**`<resultMap>、<parameterMap>、<sql>、<include>、<selectKey>` ，加上动态sql的9个标签，其中 `<sql> `为sql片段标签，通过 `<include> `标签引入sql片段， `<selectKey> `为不支持自增的主键生成策略标签。**
 
 ## Mybatis的Xml映射文件中，不同的Xml映射文件，id是否可以重复？
 

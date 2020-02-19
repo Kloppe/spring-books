@@ -74,3 +74,14 @@
 ## Mybatis
 - [MyBatis-demo](mybatis-demo)
 - [MyBatis源码](https://juejin.im/entry/5b9886735188255c960c1bec)
+### 面试常见问题
+- [MyBatis面试常见问题](/MyBatis框架面试常见问题.md)
+- [什么是数据持久化](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96)
+- [Mybatis框架简介](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#mybatis%E6%A1%86%E6%9E%B6%E7%AE%80%E4%BB%8B)
+- [什么是ORM](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#orm)
+- [MyBatis框架的优缺点及其适用的场合](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#mybatis%E6%A1%86%E6%9E%B6%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%8F%8A%E5%85%B6%E9%80%82%E7%94%A8%E7%9A%84%E5%9C%BA%E5%90%88)
+- [MyBatis与Hibernate有哪些不同？](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#mybatis%E4%B8%8Ehibernate%E6%9C%89%E5%93%AA%E4%BA%9B%E4%B8%8D%E5%90%8C)
+- [#{}和${}的区别是什么？](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#%E5%92%8C%E7%9A%84%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88)
+- [当实体类中的属性名和表中的字段名不一样，怎么办](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#%E5%BD%93%E5%AE%9E%E4%BD%93%E7%B1%BB%E4%B8%AD%E7%9A%84%E5%B1%9E%E6%80%A7%E5%90%8D%E5%92%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%AD%97%E6%AE%B5%E5%90%8D%E4%B8%8D%E4%B8%80%E6%A0%B7-%E6%80%8E%E4%B9%88%E5%8A%9E-)
+- [模糊查询like语句该怎么写?](https://github.com/DreamCats/SpringBooks/blob/master/MyBatis%E6%A1%86%E6%9E%B6%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md#%E6%A8%A1%E7%B3%8A%E6%9F%A5%E8%AF%A2like%E8%AF%AD%E5%8F%A5%E8%AF%A5%E6%80%8E%E4%B9%88%E5%86%99)
+- [这个Dao接口的工作原理是什么？Dao接口里的方法，参数不同时，方法能重载吗？]()
