@@ -33,4 +33,10 @@ public class UserMapperTest extends MybatisApplicationTests {
             System.out.println(user);
         }
     }
+
+    @Test
+    void selectById2() {
+        User user = userDao.selectById2(1);
+        System.out.println(user);
+    }
 }
