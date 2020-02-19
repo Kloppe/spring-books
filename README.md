@@ -72,3 +72,5 @@
 - [Spring框架中用到了哪些设计模型-二](https://snailclimb.gitee.io/javaguide/#/docs/system-design/framework/spring/Spring-Design-Patterns)
                    
 ## Mybatis
+- [MyBatis-demo](mybatis-demo)
+- [MyBatis源码](https://juejin.im/entry/5b9886735188255c960c1bec)
