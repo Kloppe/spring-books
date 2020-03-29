@@ -1,16 +1,7 @@
----
-title: Spring和SpringAOP源码分析
-author: DreamCat
-id: 1
-date: 2020-01-31 20:03:40
-tags: Java
-categories: Java
----
 ## 引言
 
 > 使用了SpringBoot框架做项目，难道就不好奇它为什么那么方便吗？简化了很多配置，那么首先就先分析Spring底层的源码和原理
 
-<!-- more -->
 
 ## Spring源码分析
 
@@ -52,7 +43,7 @@ categories: Java
 
 
 
-###prepareRefresh()
+### prepareRefresh()
 
 **刷新前的预处理如一些属性设置，环境，容器的一些早起事件等，主要执行的三个方法：**
 

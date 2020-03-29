@@ -1,15 +1,6 @@
----
-title: MyBatis框架面试常见问题
-author: DreamCat
-id: 1
-date: 2020-02-19 18:47:10
-tags: Mybatis
-categories: Java
----
 ## 引言
 > 项目中，经常用到MyBatis，面试也需要掌握滴！
 
-<!-- more -->
 
 ## 基本概念
 

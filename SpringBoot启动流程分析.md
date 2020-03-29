@@ -1,16 +1,7 @@
----
-title: SpringBoot-HelloWorld项目启动流程及细节和原理
-author: DreamCat
-id: 1
-date: 2020-02-03 12:03:34
-tags: Java
-categories: Java
----
 ## 引言
 
 > SpringBoot大大简化了Spring项目的配置，虽然很舒服，但是为了面试等，还是要知道里面的细节和原理呀，再此举个HelloWorld的例子
 
-<!-- more -->
 
 ## 声明
 
